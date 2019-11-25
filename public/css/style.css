@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+	padding: 0;
+  color: #395781;
+}
+
+.logo{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+}
+
+a{
+  color: #395781;
+}
+
+.elementoCarrusel{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+.carruselImagenes{
+  width: 20em;
+  height: 30em;
+}
+
+.submit{
+  background-color: #395781;
+  color:white;
+}
+.redesSociales {
+  margin-top: 3em;
+  background-color: #395781;
+  text-align: center;
+  transform: translatez(0);
+}
+
+.redesSociales li {
+  width: 80px;
+  height: 68,568px;
+  display: inline-block;
+  margin: 20px;
+  list-style: none;
+}
+
+.redesSociales li div {
+  width: 80px;
+  height: 68,568px;
+  font-size: 3.4em;
+  text-align: center;
+  line-height: 80px;
+  background-color: #fff;
+  transition: all 0.5s ease;
+}
+
+.redesSociales li a {
+  color: #395781;
+}
+
+.redesSociales li div:hover {
+  transform: rotate(360deg);
+  border-radius: 100px;
+}
+
+.redesSociales li span {
+  width: 80px;
+  height: 10px;
+  display: block;
+  padding: 15px 0px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  text-align: center;
+}
