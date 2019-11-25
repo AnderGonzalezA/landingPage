@@ -13,4 +13,6 @@
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('welcome');
+
+Route::post('/storeMessage','MessageController@store')->name('message.store');
